@@ -31,6 +31,7 @@
 	}
 	#dcIntro h2 {
 		width: 80%;
+		font-size: 2em;
 		float: none;
 	}
 	#dcIntro p {
@@ -48,6 +49,7 @@
 	}
 	#sfIntro h2 {
 		float: none;
+		font-size: 3em;
 	}
 	#sfIntro p {
 		padding-top: 10px;
