@@ -115,6 +115,11 @@ nav ul li:hover {
 	font-weight: bold;
 }
 
+nav ul li:active {
+	text-shadow: 1px 1px 1px #3B3B3B;
+	transform: translateY(2px);
+}
+
 .albumNav li:hover {
 	font-weight: bold;
 	letter-spacing: 1.5px;
