@@ -1,0 +1,115 @@
+@media screen and (max-width: 1250px) {
+	.albumNav {
+		width: 100%;
+	}
+
+	.albumNav li {
+		width: 140px;
+		height: 30px;
+		font-size: 15px;
+		padding-top: 3px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 1116px) {
+	header {
+		height: 100px;
+	}
+	.state {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 1060px) {
+	#dcIntro {
+		width: 500px;
+		height: 180px;
+		background-position: 410px 10%;
+		margin-top: 15px;
+		margin-left: 75px;
+	}
+	#dcIntro h2 {
+		width: 80%;
+		float: none;
+	}
+	#dcIntro p {
+		padding-top: 10px;
+	}
+}
+
+@media screen and (max-width: 985px) {
+	#sfIntro {
+		width: 500px;
+		height: 180px;
+		background-position: 370px 0;
+		margin-top: 25px;
+		margin-left: 75px;
+	}
+	#sfIntro h2 {
+		float: none;
+	}
+	#sfIntro p {
+		padding-top: 10px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	#maIntro {
+		width: 500px;
+		height: 180px;
+		margin-left: 75px;
+		margin-top: 15px;
+		background-position: 425px 5%;
+	}
+	#maIntro h2 {
+		float: none;
+	}
+	#maIntro p {
+		padding-top: 10px;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.state h2 {
+		float: none;
+	}
+
+	.state {
+		margin-left: 75px;
+		width: 500px;
+		height: 180px;
+	}
+	
+	.gallery {
+		width: 95%;
+	}
+	.thumbnail {
+		width: 23%;
+	}
+	#nyIntro {
+		margin-top: 25px;
+		background-position: 360px 0;
+	}
+	#nyIntro p {
+		padding-top: 10px;
+	}
+	#flIntro {
+		height: 200px;
+		background-position: 220px 18%;
+	}
+	#flIntro p {
+		padding-top: 0;
+	}
+	#paIntro {
+		margin-top: 30px;
+		background-position: 290px -5%;
+	}
+	
+}
+
+@media screen and (max-width: 655px) {
+	.albumNav {
+		width: 655px;
+	}
+}

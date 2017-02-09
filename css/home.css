@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+	nav ul li {
+		width: 18%;
+		font-size: 16px;
+	}
+
+	.bgImage {
+		background-size: 200px;
+	}
+
+	.bgHome {
+		background-position: 22% 92.5%, 50% 95%, 24.3% 82%;
+	}
+}
