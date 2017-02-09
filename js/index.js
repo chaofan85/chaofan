@@ -1,4 +1,17 @@
 $(document).ready(function() {
+  var ua = window.navigator.userAgent;
+
+  var msie = ua.indexOf('MSIE ');
+  if (msie > 0) {
+      window.location.replace("html/home.html");
+  }
+
+  var trident = ua.indexOf('Trident/');
+  if (trident > 0) {
+      window.location.replace("html/home.html");
+  }
+
+
   $('#welcome_msg').css("color", "#424242");
   $('footer').hide();
 
