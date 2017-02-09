@@ -504,7 +504,7 @@ hr {
 #project1 {
 	width: 90%;
 	height: 250px;
-	padding-top: 95px;
+	padding: 95px 10px 10px 10px;
 	border: 10px solid white;
 	margin: auto;
 	font-family: 'Mystery Quest', cursive;
@@ -527,6 +527,8 @@ hr {
 	color: green;
 }
 
+
+
 .enter {
 	width: 120px;
 	height: 40px;
@@ -546,6 +548,17 @@ hr {
 .enter:active {
 	box-shadow: 1px 2px 1px black;
 	transform: translateY(3px);
+}
+
+@media screen and (max-width: 868px) {
+	#project1 {
+		padding-top: 50px;
+	}
+}
+@media screen and (max-width: 650px) {
+	.project {
+		width: 300px;
+	}
 }
 
 .albums {
@@ -730,7 +743,6 @@ main {
 .state h2 {
 	font-size: 4em;
 	margin: 0;
-	/*text-shadow: 5px 5px 3px #404040;*/
 	float: left;
 }
 
