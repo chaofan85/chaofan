@@ -51,7 +51,12 @@ $(document).ready(function() {
 
   setTimeout(function() {
     $(".bgimage").hide();
-      $(".bgimage").css("background-image", 'url(' + pic +')').fadeIn(1000);
+    $('.bgimage').css({
+        "background-image":'url(' + pic +')',
+        "background-position":"80% 60%",
+        "background-size":"300px"
+      });
+    $(".bgimage").css("background-image", 'url(' + pic +')').fadeIn(1000);
   }, 8500);
 
   setTimeout(function() {
@@ -75,7 +80,7 @@ $(document).ready(function() {
   setTimeout(function() {
     $('.bgimage').css({
         "background-image":'url(' + pic +'), url(' + pic2 + '), url(' + pic3 + ')',
-        "background-position":"22% 90%, 50% 95%, 23.2% 81%",
+        "background-position":"22% 94%, 50% 105%, 23.2% 85%",
         "background-size":"50px, 60%, 50px"
         });
   }, 14000);
