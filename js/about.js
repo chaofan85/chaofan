@@ -6,7 +6,7 @@ $(document).ready(function() {
     }
   };
 
-  message1 = "I am from China, came to New York City and studied at graduate school in 2014. I got Master's Degree in Information Systems in 2016. ";
+  message1 = "I am from China, came to New York City and studied at graduate school in 2014. I got a Master's Degree in Information Systems in 2016. ";
   message2 = "Now I am learning front-end web developement. I'm just a beginner now, but I really enjoy learning web design. I like something creative, and front-end web design allows me to use my creativity to work.";
   message3 = "I have never worked on any web development project yet, but I believe that after I learn more about web development, I will get opportunities to use my web design skills."
 

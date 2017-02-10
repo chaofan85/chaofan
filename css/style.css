@@ -902,6 +902,10 @@ footer p {
 	margin: 0;
 }
 
+footer a {
+	text-decoration: none;
+}
+
 #chao {
 	height: 80px;
 	font-family: 'Waiting for the Sunrise', cursive;
