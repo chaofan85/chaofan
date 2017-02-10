@@ -902,8 +902,9 @@ footer p {
 	margin: 0;
 }
 
-footer a {
+footer p a {
 	text-decoration: none;
+	color: green;
 }
 
 #chao {
