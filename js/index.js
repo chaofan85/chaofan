@@ -93,7 +93,7 @@ $(document).ready(function() {
   setTimeout(function() {
     $('.bgimage').css({
         "background-image":'url(' + pic +'), url(' + pic2 + '), url(' + pic3 + ')',
-        "background-position":"22% 95%, 50% 105%, 23.2% 85%",
+        "background-position":"22% 93%, 50% 102%, 23.2% 82%",
         "background-size":"50px, 60%, 50px"
         });
   }, 14000);
